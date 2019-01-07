@@ -19,7 +19,9 @@
 		"url": "https://github.com/JonasASchmidt/rebuild2019.jsunconf.eu/issues"
 	},
 	"homepage": "https://github.com/JonasASchmidt/rebuild2019.jsunconf.eu#readme",
-	"dependencies": {},
+	"dependencies": {
+		"normalize.css": "^8.0.1"
+	},
 	"devDependencies": {
 		"pug": "",
 		"@pingy/cli": "^0.13.0"
