@@ -1,0 +1,141 @@
+[
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "head.pug",
+        "sha": "df018ed8df28adf17bb598c60a60c7d4c191acf4"
+      }
+    ],
+    "outputSha": "8942263deb5c22f3ebe2f55c73324059c9749a94",
+    "input": "head.pug",
+    "output": [
+      "head.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "index.pug",
+        "sha": "3ab5492be71cfe8760caa9fcd4ca24ba519f0c0b"
+      },
+      {
+        "file": "head.pug",
+        "sha": "df018ed8df28adf17bb598c60a60c7d4c191acf4"
+      },
+      {
+        "file": "map.pug",
+        "sha": "5c9f5b6d92841f0658a8f7efeef9fd0cada1083a"
+      }
+    ],
+    "outputSha": "090596803cce073cf9dc10d00c924f6f2344b3f5",
+    "input": "index.pug",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "metatags-from-2019-page.html",
+        "sha": "200a63a1539a54cb0451f6a2990e758e0d680164"
+      }
+    ],
+    "outputSha": "6591bda74e3f6f6ea48f05af51df4182553e10dd",
+    "input": "metatags-from-2019-page.html",
+    "output": [
+      "metatags-from-2019-page.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "map.pug",
+        "sha": "5c9f5b6d92841f0658a8f7efeef9fd0cada1083a"
+      }
+    ],
+    "outputSha": "3e8ef3a47ad5ed336eb8fcdc4c600fa435368302",
+    "input": "map.pug",
+    "output": [
+      "map.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/contriboot.js",
+        "sha": "395d4aac2171f6b20f407454809ff671cebd26bc"
+      }
+    ],
+    "outputSha": "5d2d90ef0ce218b10d61219ed38af8c82e4349ae",
+    "input": "scripts/contriboot.js",
+    "output": [
+      "scripts/contriboot.js.map",
+      "scripts/contriboot.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    ],
+    "outputSha": "c28677a6e1329b6b3dfe136f8e73646c42682e10",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/mapbox.js",
+        "sha": "f72df6ce5ebce0470d7577b8ce286422b31859cb"
+      }
+    ],
+    "outputSha": "ec9a0aa369e9e09fcb721e2fd85819b430d40357",
+    "input": "scripts/mapbox.js",
+    "output": [
+      "scripts/mapbox.js.map",
+      "scripts/mapbox.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.css",
+        "sha": "ae582587b28ff73f2807c1b44a890b647302d9eb"
+      }
+    ],
+    "outputSha": "41e5c6d423d1932ef87fa44a16f6612d5e3d64bb",
+    "input": "styles/main.css",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/normalize.css",
+        "sha": "7ffde343bdf10add1f052f3c4308a15180eb4404"
+      }
+    ],
+    "outputSha": "633c740d4da6f860acb6f4c1df09d76c2ed6b612",
+    "input": "styles/normalize.css",
+    "output": [
+      "styles/normalize.css.map",
+      "styles/normalize.css"
+    ]
+  }
+]
